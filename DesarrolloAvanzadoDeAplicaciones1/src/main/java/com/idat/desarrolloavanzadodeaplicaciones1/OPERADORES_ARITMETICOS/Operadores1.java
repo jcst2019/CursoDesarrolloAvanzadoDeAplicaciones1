@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.idat.desarrolloavanzadodeaplicaciones1.VARIABLES;
+package com.idat.desarrolloavanzadodeaplicaciones1.OPERADORES_ARITMETICOS;
 
 /**
  *
  * @author Solaris
  * Este programa realiza operaciones básicas (suma, resta, multiplicación y división) con variables numéricas.
  */
-public class Variables2 {
+public class Operadores1 {
     
     public static void main(String[] args) {
         
