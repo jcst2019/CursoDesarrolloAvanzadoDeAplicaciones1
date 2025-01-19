@@ -9,7 +9,7 @@ package com.idat.desarrolloavanzadodeaplicaciones1.VARIABLES;
  * @author Solaris
  * Este programa muestra cómo intercambiar los valores de dos variables.
  */
-public class Variables3 {
+public class Variables2 {
     
     public static void main(String[] args) {
         
