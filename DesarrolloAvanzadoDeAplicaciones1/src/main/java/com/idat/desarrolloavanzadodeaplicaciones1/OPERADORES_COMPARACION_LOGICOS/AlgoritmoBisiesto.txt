@@ -1,0 +1,46 @@
+
+¿Qué es un año bisiesto?
+=========================
+Un año bisiesto es un año que tiene 366 días, en lugar de los 365 días que tienen los años comunes. 
+Este día adicional se añade al mes de febrero, que pasa de tener 28 días a 29 días en un año bisiesto.
+
+Algoritmo para Determinar Si un Año Es Bisiesto
+===============================================
+
+El algoritmo para determinar si un año es bisiesto sigue una serie de pasos basados en reglas matemáticas.
+Un año es bisiesto si cumple alguna de estas condiciones:
+
+Es divisible entre 4 y no divisible entre 100.
+O, si es divisible entre 400.
+
+Pseudocódigo
+============
+Inicio
+   Leer anio
+   Si (anio % 4 == 0) entonces
+      Si (anio % 100 == 0) entonces
+         Si (anio % 400 == 0) entonces
+            Mostrar "El año es bisiesto."
+         Sino
+            Mostrar "El año no es bisiesto."
+         FinSi
+      Sino
+         Mostrar "El año es bisiesto."
+      FinSi
+   Sino
+      Mostrar "El año no es bisiesto."
+   FinSi
+Fin
+
+Pseudocódigo Refactorizado
+==========================
+
+Inicio
+   Leer anio
+   Si ((anio % 4 == 0 Y anio % 100 ≠ 0) O (anio % 400 == 0)) entonces
+       Mostrar "El año es bisiesto."
+   Sino
+       Mostrar "El año no es bisiesto."
+   FinSi
+Fin
+
