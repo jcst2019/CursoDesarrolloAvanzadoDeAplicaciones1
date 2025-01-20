@@ -20,12 +20,16 @@ public class DeterminaEvaluacionEstudiante {
         System.out.print("Introduce la calificación del estudiante: "); // Solicitamos la calificación
         double calificacion = input.nextDouble(); // Leemos la calificación ingresada
 
-        // Verificamos si la calificación es mayor o igual a 10.5
-        if (calificacion >= 10.5) { 
+        // Validamos si la calificación está fuera del rango permitido
+        if ((calificacion < 0) || (calificacion > 20)) {  //  ALT + 124   Obtenemos el caracter |
+            System.out.println("Valor de nota fuera de rango.");
+        } 
+        // Verificamos si el estudiante aprueba
+        else if (calificacion >= 13) {
             System.out.println("El estudiante aprueba."); // Mensaje de aprobación
         } 
-        // Si no cumple la condición anterior, reprueba
-        else { 
+        // Si no cumple las condiciones anteriores, reprueba
+        else {
             System.out.println("El estudiante reprueba."); // Mensaje de reprobación
         }
     }
