@@ -1,0 +1,19 @@
+1. Realizar un programa que pida un número e imprima en pantalla si
+es par o impar.
+2. Se ingresan por teclado tres números, si todos los valores ingresados
+son menores a 10, imprimir en pantalla la leyenda "Todos los
+números son menores a diez".
+3. Realizar un programa que pida 3 números y muestre en pantalla el
+mayor de ellos.
+4. Hacer un programa para una tienda de zapatos que tiene una
+promoción de descuento para vender al mayor, esta dependerá del
+número de zapatos que se compren.
+- Si son más de diez hasta 19, se les dará un 10% de descuento sobre
+el total de la compra;
+- si el número de zapatos es mayor o igual de veinte, pero menor
+de treinta, se le otorga un 20% de descuento;
+- y si el número de zapatos es mayor o igual de treinta se otorgará
+un 40% de descuento.
+El precio de cada zapato es de $80.
+Se debe ingresar por teclado el número de zapatos a comprar y el
+programa debe imprimir cuánto se pagará aplicando el descuento.
